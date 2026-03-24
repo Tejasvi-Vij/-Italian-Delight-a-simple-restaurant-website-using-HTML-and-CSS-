@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Italian Delight</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background: #8B0000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center/cover;
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+/* SECTION */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.about {
+    background: #f4f4f4;
+}
+
+/* MENU */
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background: #fff;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.menu-item h3 {
+    color: #8B0000;
+}
+
+.menu-item p {
+    font-size: 14px;
+}
+
+/* GALLERY */
+.gallery img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #8B0000;
+    color: white;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<br>
+    <p><b>This is a class mini project made by:</b></p>
+    <p>1.Tejasvi Vij (UID: 25BCD10099)</p>
+    <p>2.Kiran (UID: 25BCD10098)</p>
+    <p>Class: 25BCD-2(B)</p>
+    
+
+
+
+<h1>🍝 Italian Delight</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Authentic Italian Cuisine</h2>
+    <p>Luxury Dining Experience</p>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>Experience fine dining with handcrafted Italian dishes inspired by traditional recipes and modern culinary art.</p>
+</section>
+
+<!-- MENU -->
+<section id="menu">
+    <h2>Our Signature Menu</h2>
+
+    <div class="menu-container">
+
+        <div class="menu-item">
+            <h3>Truffle Mushroom Risotto</h3>
+            <p>Creamy arborio rice with wild mushrooms & truffle oil</p>
+            <h4>₹599</h4>
+        </div>
+
+        <div class="menu-item">
+            <h3>Margherita DOP Pizza</h3>
+            <p>San Marzano tomatoes, fresh mozzarella, basil</p>
+            <h4>₹449</h4>
+        </div>
+
+        <div class="menu-item">
+            <h3>Spinach Ricotta Ravioli</h3>
+            <p>Handmade pasta stuffed with ricotta & spinach</p>
+            <h4>₹529</h4>
+        </div>
+
+        <div class="menu-item">
+            <h3>Gnocchi al Pesto</h3>
+            <p>Soft potato dumplings in basil pesto sauce</p>
+            <h4>₹499</h4>
+        </div>
+
+        <div class="menu-item">
+            <h3>Eggplant Parmigiana</h3>
+            <p>Layered eggplant with cheese & tomato sauce</p>
+            <h4>₹459</h4>
+        </div>
+
+        <div class="menu-item">
+            <h3>Fettuccine Alfredo</h3>
+            <p>Classic creamy white sauce pasta</p>
+            <h4>₹399</h4>
+        </div>
+
+        <div class="menu-item">
+            <h3>Bruschetta Classica</h3>
+            <p>Grilled bread with tomato, garlic & olive oil</p>
+            <h4>₹249</h4>
+        </div>
+
+        <div class="menu-item">
+            <h3>Tiramisu</h3>
+            <p>Classic Italian dessert with coffee & mascarpone</p>
+            <h4>₹299</h4>
+        </div>
+
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery">
+    <h2>Gallery</h2>
+    <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65">
+    <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb">
+    <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="email" placeholder="Your Email" required><br>
+        <textarea placeholder="Your Message"></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Italian Delight</p>
+    <br>
+    <p><b>This is a class mini project made by:</b></p>
+    <p>Tejasvi Vij (UID: 25BCD10099)</p>
+    <p>Kiran (UID: 25BCD10098)</p>
+    <p>Class: 25BCD-2(B)</p>
+</footer>
+
+</body>
+</html>
